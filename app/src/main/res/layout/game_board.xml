@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <GridLayout
+        android:id="@+id/mainBoard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="150dp"
+        android:columnCount="4"
+        android:rowCount="4"
+        >
+    <Button
+            android:id="@+id/c1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:background="@drawable/blackborder"
+            />
+        <Button
+            android:id="@+id/c2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:background="@drawable/blackborder"
+            />
+        <Button
+            android:id="@+id/c3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:background="@drawable/blackborder"
+            />
+
+        <Button
+            android:id="@+id/c4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_row="0"
+            android:layout_column="3"
+            android:background="@drawable/blackborder"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+        <Button
+            android:id="@+id/c5"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:background="@drawable/blackborder"
+            />
+        <Button
+            android:id="@+id/c6"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:background="@drawable/blackborder"
+            />
+        <Button
+            android:id="@+id/c7"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:background="@drawable/blackborder"
+            />
+        <Button
+            android:id="@+id/c8"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_row="1"
+            android:layout_column="3"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:background="@drawable/blackborder"
+            />
+        <Button
+            android:id="@+id/c9"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:background="@drawable/blackborder"
+            />
+        <Button
+            android:id="@+id/c10"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:background="@drawable/blackborder"
+            />
+        <Button
+            android:id="@+id/c11"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_row="2"
+            android:layout_column="2"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:background="@drawable/blackborder"
+            />
+        <Button
+            android:id="@+id/c12"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_row="2"
+            android:layout_column="3"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:background="@drawable/blackborder"
+            />
+        <Button
+            android:id="@+id/c13"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:background="@drawable/blackborder"
+            />
+        <Button
+            android:id="@+id/c14"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:background="@drawable/blackborder"
+            />
+        <Button
+            android:id="@+id/c15"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_row="3"
+            android:layout_column="2"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:background="@drawable/blackborder"
+            />
+        <Button
+            android:id="@+id/c16"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_row="3"
+            android:layout_column="3"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:background="@drawable/blackborder"
+            />
+
+
+
+
+
+
+
+
+
+
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/Score"
+        android:layout_width="383dp"
+        android:layout_height="75dp"
+        android:text="Score"
+        android:textSize="40dp" />
+
+
+</RelativeLayout>
