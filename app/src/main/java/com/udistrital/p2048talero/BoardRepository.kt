@@ -14,6 +14,7 @@ class BoardRepository {
             "board" to gameLogic.board.map { it.toList() }.toList().flatten(),
             "score" to gameLogic.score
         )
+        gameRef.setValue(gameData)
 
 
 
