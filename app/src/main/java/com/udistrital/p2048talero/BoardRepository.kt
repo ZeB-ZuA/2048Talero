@@ -11,17 +11,11 @@ class BoardRepository {
 
         val gameData = mapOf(
 
-            "board" to gameLogic.board.map { it.toList() }.toList().flatten(),
+            "board" to gameLogic.board.map { it.toList() }.toList().flatten(), //castea el board en una lista de listas para que el firebase lo recosnosza
             "score" to gameLogic.score
         )
         gameRef.setValue(gameData)
 
-
-
     }
-
-
-
-
 
 }
